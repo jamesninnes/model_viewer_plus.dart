@@ -13,7 +13,7 @@ abstract class HTMLBuilder {
     String htmlTemplate = '',
     // Attributes
     // Loading Attributes
-    required final String src,
+    required String src,
     final String? alt,
     final String? poster,
     final bool? seamlessPoster,
